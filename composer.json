@@ -18,12 +18,13 @@
     "require": {
         "php": "^7.0",
         "psr/log": "^1.0.1",
-         "nguyendai0409/log": "dev-master"
+         "nguyendai/mylog": "dev-master"
     },
     "autoload": {
         "psr-4": {"MyLog\\": "src/mylog"}
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8@stable"
-    }
+    },
+    "minimum-stability": "dev"
 }
