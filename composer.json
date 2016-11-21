@@ -1,0 +1,18 @@
+{
+    "name": "nguyendai/mylog",
+    "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+    "keywords": ["log", "logging", "psr-3"],
+    "authors": [
+        {
+            "name": "Jordi Boggiano",
+            "email": "dai@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "psr/log": "^1.0.1"
+    },
+    "autoload": {
+        "psr-4": {"MyLog\\": "src/mylog"}
+    }
+}
